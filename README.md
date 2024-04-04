@@ -37,6 +37,8 @@ Hardware – PCs, Cyclone II , USB flasher
 
 Program
 
+~~~
+
 module Boolean_min(A,B,C,D,W,X,Y,Z,F1,F2);
 input A,B,C,D,W,X,Y,Z;
 wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10;
@@ -55,9 +57,9 @@ assign F1=x1|x2|x3|x4|x5;
 assign F2=x6|x7|x8|x9|x10;
 endmodule
 
-
 Developed by: Sanjay S
 RegisterNumber: 212223040184
+~~~
 
 Logic Symbol and Truth table
 ![319427043-ab520f8d-0d6f-4bb9-96e6-33968a037418](https://github.com/scarl-sanjay/BOOLEAN_FUNCTION_MINIMIZATION/assets/147120917/b51919fc-aa9d-4aa9-be80-15a1f08b29c2)
